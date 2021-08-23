@@ -82,10 +82,7 @@ namespace MatchingGame
                     return;
                 }
 
-                // If the player gets this far, the player 
-                // clicked two different icons, so start the 
-                // timer (which will wait three quarters of 
-                // a second, and then hide the icons)
+                
                 timer1.Start();
             }
         }
