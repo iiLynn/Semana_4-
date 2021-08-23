@@ -87,14 +87,7 @@ namespace MatchingGame
             }
         }
 
-        /// <summary>
-        /// This timer is started when the player clicks 
-        /// two icons that don't match,
-        /// so it counts three quarters of a second 
-        /// and then turns itself off and hides both icons
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Stop();
