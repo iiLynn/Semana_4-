@@ -69,10 +69,7 @@ namespace MatchingGame
                     return;
                 }
 
-                // If the player gets this far, the timer isn't
-                // running and firstClicked isn't null,
-                // so this must be the second icon the player clicked
-                // Set its color to black
+                
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
